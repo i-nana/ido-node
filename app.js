@@ -3,8 +3,13 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var pug = require('pug');       // 模板  
 var port = process.env.PORT || 8333;
 var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, './views/pages'));
+app.set('view engine', 'pug');
 
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use(favicon(__dirname + '/public/favicon.ico'));
