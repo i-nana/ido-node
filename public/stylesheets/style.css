@@ -14,7 +14,6 @@ a {
     bottom: 0;
     background: url(../images/bg01.jpg) top left transparent;
     background-size: cover;
-    opacity: 0.65;
 }
 .container{
     position: absolute;
