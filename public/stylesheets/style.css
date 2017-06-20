@@ -1,4 +1,5 @@
-@import 'reset.css'; body {
+@import 'reset.css'; 
+body {
     background: #fff;
     color: #525252;
     font: 14px/1.5 'sans-serif', Tahoma, 'Microsoft YaHei';
@@ -13,7 +14,7 @@ a {
     width: 100%;
     top: 0;
     bottom: 0;
-    background: url(../images/bg03.jpg) top left transparent;
+    background: url(../images/bg01.jpg) top left transparent;
     background-size: cover;
 }
 
@@ -26,7 +27,7 @@ a {
     height: 100%;
     background: #000;
     filter: alpha(opacity=36);
-    opacity: .64;
+    opacity: .54;
 }
 
 .container {
@@ -39,17 +40,21 @@ a {
 }
 
 .logo-mark {
-    width: 240px;
+    width: 12rem;
+    color: red;
 }
+
 .i-slogan {
     font-size: 16px;
+    margin-bottom: 1rem;
 }
+
 .i-line {
     display: inline-block;
     width: 180px;
-    height: 2px;
+    height: 1px;
     background: #fff;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -57,9 +62,8 @@ a {
 .btn-me {
     display: inline-block;
     line-height: 1;
-    color: #3F51B5;
+    color: #F44336;
     padding: 10px 40px;
     border-radius: 20px;
-    background: #fff;
-    box-shadow: 0 2px 4px 1px rgba(63, 81, 181, 0.64);
+    background: #FFEB3B;
 }
