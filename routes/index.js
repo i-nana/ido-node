@@ -5,5 +5,6 @@ module.exports = function (app) {
 	app.get('/', Index.index);
 	
 	// Totoro ヾ(◍°∇°◍)ﾉﾞ
-	app.post('/totoro', Totoro.index);
+	app.get('/totoro', Totoro.index);
+	app.get('/totoro/getBanners', Totoro.banners);
 };
